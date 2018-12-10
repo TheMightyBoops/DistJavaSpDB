@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-12-10T13:49:50</date>
+  <millis>1544471390863</millis>
+  <sequence>6</sequence>
+  <logger>Glog</logger>
+  <level>INFO</level>
+  <class>com.nolting.second.GenreService</class>
+  <method>getAllGenres</method>
+  <thread>33</thread>
+  <message>Added genre: new                                                                                                 </message>
+</record>
+<record>
+  <date>2018-12-10T13:49:50</date>
+  <millis>1544471390864</millis>
+  <sequence>7</sequence>
+  <logger>Glog</logger>
+  <level>INFO</level>
+  <class>com.nolting.second.GenreService</class>
+  <method>getAllGenres</method>
+  <thread>33</thread>
+  <message>Added genre: Action                                                                                              </message>
+</record>
+<record>
+  <date>2018-12-10T13:49:50</date>
+  <millis>1544471390865</millis>
+  <sequence>8</sequence>
+  <logger>Glog</logger>
+  <level>INFO</level>
+  <class>com.nolting.second.GenreService</class>
+  <method>getAllGenres</method>
+  <thread>33</thread>
+  <message>Added genre: New one                                                                                             </message>
+</record>
+<record>
+  <date>2018-12-10T13:49:50</date>
+  <millis>1544471390865</millis>
+  <sequence>9</sequence>
+  <logger>Glog</logger>
+  <level>INFO</level>
+  <class>com.nolting.second.GenreService</class>
+  <method>getAllGenres</method>
+  <thread>33</thread>
+  <message>genre list populated</message>
+</record>
+</log>

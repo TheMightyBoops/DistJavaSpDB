@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daba963c-c16b-4568-935e-0308b0692a35" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreError.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreLogger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/error/404.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/public/error/error.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change beforePath="$PROJECT_DIR$/sql/GenreDB/db.lck" afterPath="$PROJECT_DIR$/sql/GenreDB/db.lck" />
+      <change beforePath="$PROJECT_DIR$/sql/GenreDB/log/log.ctrl" afterPath="$PROJECT_DIR$/sql/GenreDB/log/log.ctrl" />
+      <change beforePath="$PROJECT_DIR$/sql/GenreDB/log/log1.dat" afterPath="$PROJECT_DIR$/sql/GenreDB/log/log1.dat" />
+      <change beforePath="$PROJECT_DIR$/sql/GenreDB/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/sql/GenreDB/log/logmirror.ctrl" />
+      <change beforePath="$PROJECT_DIR$/sql/GenreDB/seg0/c490.dat" afterPath="$PROJECT_DIR$/sql/GenreDB/seg0/c490.dat" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreController.java" afterPath="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java" afterPath="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Add.html" afterPath="$PROJECT_DIR$/src/main/resources/static/Add.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/Update.html" afterPath="$PROJECT_DIR$/src/main/resources/static/Update.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nolting/second/GenreController.class" afterPath="$PROJECT_DIR$/target/classes/com/nolting/second/GenreController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nolting/second/GenreService.class" afterPath="$PROJECT_DIR$/target/classes/com/nolting/second/GenreService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Add.html" afterPath="$PROJECT_DIR$/target/classes/static/Add.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/Update.html" afterPath="$PROJECT_DIR$/target/classes/static/Update.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="$PROJECT_DIR$/target/classes/static/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,41 +63,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Genre.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/Genre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GenreController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="1035">
+              <caret line="69" column="7" lean-forward="false" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-                <element signature="e#1083#1084#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1455#1456#0" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
+                <element signature="e#1585#1586#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,65 +88,55 @@
       <file leaf-file-name="GenreService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="81" column="46" lean-forward="false" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
+            <state relative-caret-position="333">
+              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1544468146714" expanded="true" signature="750:770" ph="SELECT * FRO... GENRES" />
-                <marker date="1544468146714" expanded="true" signature="1756:1784" ph="INSERT INTO EVENTS... " />
-                <marker date="1544468146714" expanded="true" signature="1756:1843" ph="INSERT INTO EVENTS... " />
-                <marker date="1544468146714" expanded="true" signature="1756:1869" ph="INSERT INTO EVENTS... " />
-                <marker date="1544468146714" expanded="true" signature="1756:1870" ph="INSERT INTO GENRES... " />
-                <marker date="1544468146714" expanded="true" signature="2337:2440" ph="UPDATE EVENTS... " />
-                <marker date="1544468146714" expanded="true" signature="2337:2499" ph="UPDATE EVENTS... " />
-                <marker date="1544468146714" expanded="true" signature="2337:2500" ph="UPDATE GENRES... " />
-                <marker date="1544468146714" expanded="true" signature="2337:2511" ph="UPDATE GENRES... " />
-                <marker date="1544468146714" expanded="true" signature="2970:3001" ph="DELETE FROM EVENTS... " />
-                <marker date="1544468146714" expanded="true" signature="2970:3002" ph="DELETE FROM GENRES... " />
-                <marker date="1544468146714" expanded="true" signature="2970:3033" ph="DELETE FROM GENRES... " />
+                <marker date="1544471071136" expanded="true" signature="972:992" ph="SELECT * FRO... GENRES" />
+                <marker date="1544471071136" expanded="true" signature="2256:2284" ph="INSERT INTO EVENTS... " />
+                <marker date="1544471071136" expanded="true" signature="2256:2343" ph="INSERT INTO EVENTS... " />
+                <marker date="1544471071136" expanded="true" signature="2256:2369" ph="INSERT INTO EVENTS... " />
+                <marker date="1544471071136" expanded="true" signature="2256:2370" ph="INSERT INTO GENRES... " />
+                <marker date="1544471071136" expanded="true" signature="2826:2929" ph="UPDATE EVENTS... " />
+                <marker date="1544471071136" expanded="true" signature="2826:2988" ph="UPDATE EVENTS... " />
+                <marker date="1544471071136" expanded="true" signature="2826:2989" ph="UPDATE GENRES... " />
+                <marker date="1544471071136" expanded="true" signature="2826:3000" ph="UPDATE GENRES... " />
+                <marker date="1544471071136" expanded="true" signature="3448:3479" ph="DELETE FROM EVENTS... " />
+                <marker date="1544471071136" expanded="true" signature="3448:3480" ph="DELETE FROM GENRES... " />
+                <marker date="1544471071136" expanded="true" signature="3448:3511" ph="DELETE FROM GENRES... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startScripts.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql/startScripts.sql">
+      <file leaf-file-name="GenreLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5438b1e1-cb27-4587-80c8-2702979da8bc/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GenreConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Genrelog.log" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Logs/Genrelog.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,8 +144,30 @@
       <file leaf-file-name="Update.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/Update.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="180">
+              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/SecondApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#306#307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -163,8 +176,18 @@
       <file leaf-file-name="Add.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/Add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="180">
+              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -175,8 +198,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -193,15 +216,20 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/nolting/second/genre.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/Genre.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/Add.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nolting/second/Genre.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/Update.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
         <option value="$PROJECT_DIR$/sql/startScripts.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreConnection.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/5438b1e1-cb27-4587-80c8-2702979da8bc/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreError.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/error/404.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/error/error.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/Add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/Update.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nolting/second/GenreLogger.java" />
       </list>
     </option>
   </component>
@@ -242,7 +270,23 @@
             <path>
               <item name="second" type="b2602c69:ProjectViewProjectNode" />
               <item name="second" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="second" type="b2602c69:ProjectViewProjectNode" />
@@ -276,6 +320,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="second" type="b2602c69:ProjectViewProjectNode" />
@@ -284,6 +336,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="second" type="b2602c69:ProjectViewProjectNode" />
+              <item name="second" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -433,30 +511,31 @@
       <updated>1543282913528</updated>
       <workItem from="1543282919890" duration="4876000" />
       <workItem from="1543456621009" duration="3351000" />
-      <workItem from="1544462954714" duration="5412000" />
+      <workItem from="1544462954714" duration="8446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13639000" />
+    <option name="totallyTimeSpent" value="16673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="749" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33009708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33009708" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25757575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2219697" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -484,7 +563,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java</url>
-          <line>58</line>
+          <line>71</line>
           <properties class="com.nolting.second.GenreService" method="addGenre">
             <option name="EMULATED" value="true" />
           </properties>
@@ -492,7 +571,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java</url>
-          <line>73</line>
+          <line>86</line>
           <properties class="com.nolting.second.GenreService" method="updateGenre">
             <option name="EMULATED" value="true" />
           </properties>
@@ -500,13 +579,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/resources/static/index.html</url>
-          <line>10</line>
+          <line>15</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java</url>
-          <line>23</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -521,14 +600,14 @@
         <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -539,15 +618,16 @@
           <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,14 +669,14 @@
         <state relative-caret-position="225">
           <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
           <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,15 +687,16 @@
           <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -649,18 +730,18 @@
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1544468146714" expanded="true" signature="750:770" ph="SELECT * FRO... GENRES" />
-            <marker date="1544468146714" expanded="true" signature="1756:1784" ph="INSERT INTO EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="1756:1843" ph="INSERT INTO EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="1756:1869" ph="INSERT INTO EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="1756:1870" ph="INSERT INTO GENRES... " />
-            <marker date="1544468146714" expanded="true" signature="2337:2440" ph="UPDATE EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="2337:2499" ph="UPDATE EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="2337:2500" ph="UPDATE GENRES... " />
-            <marker date="1544468146714" expanded="true" signature="2337:2511" ph="UPDATE GENRES... " />
-            <marker date="1544468146714" expanded="true" signature="2970:3001" ph="DELETE FROM EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="2970:3002" ph="DELETE FROM GENRES... " />
-            <marker date="1544468146714" expanded="true" signature="2970:3033" ph="DELETE FROM GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="972:992" ph="SELECT * FRO... GENRES" />
+            <marker date="1544471071136" expanded="true" signature="2256:2284" ph="INSERT INTO EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2256:2343" ph="INSERT INTO EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2256:2369" ph="INSERT INTO EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2256:2370" ph="INSERT INTO GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="2826:2929" ph="UPDATE EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2826:2988" ph="UPDATE EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2826:2989" ph="UPDATE GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="2826:3000" ph="UPDATE GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="3448:3479" ph="DELETE FROM EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="3448:3480" ph="DELETE FROM GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="3448:3511" ph="DELETE FROM GENRES... " />
           </folding>
         </state>
       </provider>
@@ -672,34 +753,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/SecondApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/Add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.2.RELEASE/spring-webmvc-5.1.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="573" column="0" lean-forward="false" selection-start-line="573" selection-start-column="0" selection-end-line="573" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/Update.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="7" lean-forward="false" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -708,14 +765,14 @@
         <state relative-caret-position="163">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#297#298#0" expanded="false" />
+            <element signature="e#330#331#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#475#476#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -725,7 +782,7 @@
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -754,47 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="81" column="46" lean-forward="false" selection-start-line="81" selection-start-column="46" selection-end-line="81" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1544468146714" expanded="true" signature="750:770" ph="SELECT * FRO... GENRES" />
-            <marker date="1544468146714" expanded="true" signature="1756:1784" ph="INSERT INTO EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="1756:1843" ph="INSERT INTO EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="1756:1869" ph="INSERT INTO EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="1756:1870" ph="INSERT INTO GENRES... " />
-            <marker date="1544468146714" expanded="true" signature="2337:2440" ph="UPDATE EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="2337:2499" ph="UPDATE EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="2337:2500" ph="UPDATE GENRES... " />
-            <marker date="1544468146714" expanded="true" signature="2337:2511" ph="UPDATE GENRES... " />
-            <marker date="1544468146714" expanded="true" signature="2970:3001" ph="DELETE FROM EVENTS... " />
-            <marker date="1544468146714" expanded="true" signature="2970:3002" ph="DELETE FROM GENRES... " />
-            <marker date="1544468146714" expanded="true" signature="2970:3033" ph="DELETE FROM GENRES... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -803,10 +819,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#197#198#0" expanded="false" />
+            <element signature="e#224#225#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/error/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/error/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="7" lean-forward="false" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1585#1586#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/Add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1544471071136" expanded="true" signature="972:992" ph="SELECT * FRO... GENRES" />
+            <marker date="1544471071136" expanded="true" signature="2256:2284" ph="INSERT INTO EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2256:2343" ph="INSERT INTO EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2256:2369" ph="INSERT INTO EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2256:2370" ph="INSERT INTO GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="2826:2929" ph="UPDATE EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2826:2988" ph="UPDATE EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="2826:2989" ph="UPDATE GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="2826:3000" ph="UPDATE GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="3448:3479" ph="DELETE FROM EVENTS... " />
+            <marker date="1544471071136" expanded="true" signature="3448:3480" ph="DELETE FROM GENRES... " />
+            <marker date="1544471071136" expanded="true" signature="3448:3511" ph="DELETE FROM GENRES... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/Update.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/SecondApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nolting/second/GenreLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/Genrelog.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -11,10 +11,20 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Logger;
 
 @Service
 public class GenreService {
 
+    private static Logger logger;
+
+    static {
+        try {
+            logger = GenreLogger.getLogger();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     private List<Genre> genres = null;
 
@@ -30,6 +40,7 @@ public class GenreService {
                 String name = resultSet.getString("Name");
                 String rating = resultSet.getString("Rating");
 
+                logger.info("Added genre: " + name);
                 Genre genre = new Genre();
                 genre.setName(name);
                 genre.setRating(rating);
@@ -37,21 +48,23 @@ public class GenreService {
                 genres.add(genre);
             }
         } catch (SQLException sqle) {
+            logger.warning("Something went wrong when getting list of genres");
             return null;
-
         }
-
+        logger.info("genre list populated");
         return genres;
     }
 
     public Genre getGenre(String id) {
         //this.getAllGenres();
         if(genres.size() > 0) {
+            logger.info("Checking list for genre");
             return genres.stream().filter(g -> g.getName()
                     .contains(id))
                     .findFirst()
                     .get();
         } else {
+            logger.info("given genre not found");
             return null;
         }
     }
@@ -64,9 +77,9 @@ public class GenreService {
                     "INSERT INTO GENRES VALUES ('" + genre.getName() + "'," +
                             "'" + genre.getRating() + "')"
             );
-            System.out.println("Event: " + genre.getName() + "added to DB");
+            logger.info("Event: " + genre.getName() + "added to DB");
         } catch (SQLException sqle) {
-            System.out.println("Failed at Add Event\n "+
+            logger.warning("Failed at Add Event\n "+
                     sqle.getMessage());
         }
     }
@@ -81,9 +94,9 @@ public class GenreService {
                     "', Rating='" + genre.getRating() +
                     "' WHERE Name='" + id + "'"
             );
-            System.out.println("Event: " + genre.getName() + " added to DB");
+            logger.info("Event: " + genre.getName() + " added to DB");
         } catch (SQLException sqle) {
-            System.out.println("Failed at: Update Event\n" +
+            logger.warning("Failed at: Update Event\n" +
                     sqle.getMessage());
         }
     }
@@ -95,10 +108,10 @@ public class GenreService {
 
             sql.execute("DELETE FROM GENRES WHERE NAME ='" +
                     id + "'");
-            System.out.println("Event: " + id +
+            logger.info("Event: " + id +
                     "deleted from db.");
         } catch (SQLException sqle) {
-            System.out.println("Failed At: Delete Event\n" +
+            logger.warning("Failed At: Delete Event\n" +
                     sqle.getMessage()
             );
         }
