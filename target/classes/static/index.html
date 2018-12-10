@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Genres</title>
+</head>
+<body>
+<h2>Super Genres</h2>
+<span id="stuff"></span>
+<script>
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var myObj = JSON.parse(this.responseText);
+            var content = "<table>";
+            for (var property in myObj) {
+                if (myObj.hasOwnProperty(property)) {
+                    content += "<tr><td>" + myObj[property].name + "</td><td>" + myObj[property].rating +
+                        "</td></tr>";
+                }
+            }
+            content += "</table>"
+            document.getElementById("stuff").innerHTML = content;
+        }
+    };
+    xmlhttp.open("GET", "/genres", true);
+    xmlhttp.send();
+</script>
+<h3>Genre</h3>
+<span id="genres"></span>
+<script>
+    var xmlhttp2 = new XMLHttpRequest();
+    xmlhttp2.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var myObj = JSON.parse(this.responseText);
+            var content = "<table>";
+            content += "<tr><td>" + myObj.name + "</td><td>" + myObj.rating +
+                "</td></tr>";
+            content += "</table>"
+            document.getElementById("genres").innerHTML = content;
+        }
+    };
+    xmlhttp2.open("GET", "/genres/Horror", true);
+    xmlhttp2.send();
+</script>
+
+</body>

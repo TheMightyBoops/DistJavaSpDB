@@ -1,0 +1,5 @@
+
+CREATE TABLE GENRES (
+  Name CHAR(100),
+  Rating CHAR(10)
+);

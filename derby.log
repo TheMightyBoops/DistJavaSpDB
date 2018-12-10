@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Dec 10 12:56:20 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (Unversioned directory): instance a816c00e-0167-997a-2d07-00000679dce0 
+on database directory /home/lucas/School/DistJava/second/sql/GenreDB with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/home/lucas/GF/glassfish5/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_151-b12
+user.dir=/home/lucas/School/DistJava/second
+os.name=Linux
+os.arch=amd64
+os.version=4.13.0-32-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
